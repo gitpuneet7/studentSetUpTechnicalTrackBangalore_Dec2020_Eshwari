@@ -14,7 +14,7 @@ public class AuthorizationService {
 			throw new IllegalArgumentException("Dao Object cannot be null");
 		}
 		if(userInfoObj == null){
-			throw new IllegalArgumentException("User info Object cannot be null");
+			throw new IllegalArgumentException("User info Object cannot be null, intialize properly.");
 		}
 		//handle null cases
 		if(userInfoObj.getName() == null || userInfoObj.getCountry() == null || userInfoObj.getDateOfBirth() == null){
